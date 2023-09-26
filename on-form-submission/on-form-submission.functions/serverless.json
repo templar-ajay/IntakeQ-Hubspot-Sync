@@ -1,0 +1,12 @@
+{
+  "runtime": "nodejs18.x",
+  "version": "1.0",
+  "environment": {},
+  "secrets": ["HUBSPOT_PRIVATE_APP_TOKEN", "INTAKEQ_API_KEY"],
+  "endpoints": {
+    "on-form-submission": {
+      "method": "POST",
+      "file": "index.js"
+    }
+  }
+}
