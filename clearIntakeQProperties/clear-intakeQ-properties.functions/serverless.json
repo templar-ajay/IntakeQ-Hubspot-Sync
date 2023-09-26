@@ -1,0 +1,10 @@
+{
+  "runtime": "nodejs18.x",
+  "version": "1.0",
+  "endpoints": {
+    "clear-intakeq-properties": {
+      "method": "POST",
+      "file": "onClearIntakeQPropertiesRequest.js"
+    }
+  }
+}
